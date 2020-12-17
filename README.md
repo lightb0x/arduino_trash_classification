@@ -38,12 +38,13 @@ MobileNet v1 25% on 96x96 RGB input
 
 MobileNet v1 model was trained on custom ImageNet/96x96 dataset
 
-and transfer learning into [garythung/trashnet](https://github.com/garythung/trashnet)
+and transfer learning into [resized_trashnet](https://github.com/lightb0x/resized_trashnet), original dataset from [garythung/trashnet](https://github.com/garythung/trashnet) 
 
 ### how to use
 1. follow official `person detection example` [instructions](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/person_detection#running-on-arduino)
 2. `git clone https://github.com/lightb0x/arduino_trash_classification.git` in directory of your taste
-3. `cd arduino_trash_classification` and double click on `arduino_trash_classification_ino`
+3. `cd arduino_trash_classification`
+4. double click on `arduino_trash_classification.ino`
 
 ## performance
 * speed : takes about `930ms` per inference (takes 260ms on Raspberry Pi Zero W)
