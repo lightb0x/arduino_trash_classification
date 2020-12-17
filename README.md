@@ -17,6 +17,8 @@ which are necessary for project
 ## Description
 TinyML example application for Arduino Nano 33 BLE Sense
 
+[demo video](https://youtu.be/czU17oEVNr8)
+
 ### tested environment
 * arduino nano 33 BLE Sense + ArduCAM OV2640
 * macOS Big Sur (v11.1, 20C69), MBPr 13" mid 2014
