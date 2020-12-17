@@ -3,7 +3,7 @@
 
 TinyML Team (with LG Electronics)
 * Myeonghwan Ahn
-* Junseon Koo
+* Junseo Koo
 * Jaewoo Kim
 * LGE mentor Chanseok Kang
 
