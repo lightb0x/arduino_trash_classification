@@ -11,6 +11,7 @@ LGE lent us
 * Arduino Nano 33 BLE Sense
 * ArduCAM OV2640
 * F/F cables to connect above two
+
 which are necessary for project
 
 ## Description
