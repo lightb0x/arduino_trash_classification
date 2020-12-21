@@ -45,10 +45,16 @@ and transfer learning into [resized_trashnet](https://github.com/lightb0x/resize
 ### how to use
 1. follow official `person detection example` [instructions](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/person_detection#running-on-arduino)
 2. `git clone https://github.com/lightb0x/arduino_trash_classification.git` in directory of your taste
-3. `cd arduino_trash_classification`
+3. `mv arduino_trash_classification-master arduino_trash_classification`
+3. `open arduino_trash_classification` OR `gopen arduino_trash_classification` (open in files)
 4. double click on `arduino_trash_classification.ino`
 
 ## performance
 * speed : takes about `930ms` per inference (takes 260ms on Raspberry Pi Zero W)
 * accuracy : correctly infer `plastic` on transparent plastic bottle
+
+## reason for performance boost
+End-to-end `int8` quantization make use of CMSIS-NN kernel instead of standard TFLite micro kernel.
+
+refer [here](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/kernels/cmsis-nn) for detail.
 
